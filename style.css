@@ -11,7 +11,7 @@ html{
 
 body{
     margin: 0;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Arial', cursive;
     text-align: center;
 }
 img{
@@ -290,8 +290,8 @@ nav a:focus{
 }
 
 .about-text p{
-    text-align: center;
-    font-family: monospace;
+    text-align: justify;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .about-text h1{
@@ -993,6 +993,7 @@ nav a:focus{
     line-height: 50px;
 }
 
+
 .footer-main-menu{
     width: 100%;
     height: auto;
@@ -1015,11 +1016,12 @@ nav a:focus{
     color: white;
     text-decoration: none;
     outline: none;
+    padding-right: 5px;
 }
 
 .footer-bottom{
     width: 100;
-    height: 50px;
+    height: 40px;
     margin: auto;
     background: goldenrod;
     padding: 2px;
@@ -1028,15 +1030,17 @@ nav a:focus{
 .footer-bottom p{
     font-family: monospace;
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .footer-bottom p a{
     color: black;
     text-transform: lowercase;
+    font-size: 18px;
+    margin-left: 8px;
 }
 
 @media screen and (min-width:320px){
